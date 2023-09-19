@@ -1,0 +1,15 @@
+class Ejemplo1 {
+  def indent(x:Int):Int = x
+  def cuadr(x:Int):Int = x*x
+  def succ(x:Int):Int = x+1
+  def sum2(x:Int):Int = x+2
+
+  def main(args: Array[String]) {
+    print(suma(indent, succ, 1, 10))
+  }
+
+  def suma(f:Int=>Int, prox:Int=>Int, a: Int, b: Int): Int = {
+    if (a > b) 0
+    else f(a) + suma(f, prox, prox(a), b)
+  }
+}

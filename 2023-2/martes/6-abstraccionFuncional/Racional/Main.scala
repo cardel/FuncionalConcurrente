@@ -25,5 +25,7 @@ object Main{
       case e:IllegalArgumentException => println("Excepcion capturada: "+e)
     }
     println(new Racional(1,2).suma(new Racional(1,2)).suma(new Racional(1,2)))
+    println(objRacional suma new Racional(1,2))
+    println(new     println(new Racional(1,2) + new Racional(1,2))Racional(1,2) + new Racional(1,2))
   }
 }

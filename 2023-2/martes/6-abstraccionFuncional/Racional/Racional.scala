@@ -39,6 +39,9 @@ class Racional(x:Int, y:Int) {
   def max(r:Racional):Racional = {
     if(this.menorQue(r)) r else this
   }
-
+  
+  def +(r:Racional):Racional = {
+    new Racional(numer*r.deno + r.numer*deno, deno*r.deno)
+  }
 
 }

@@ -33,6 +33,10 @@ object Main {
     } catch {
       case e: IllegalArgumentException => e.printStackTrace()
     }
+    //SUma
+    val numRa20:Racional = new Racional(7,6)
+    println(numRa20.suma(new Racional(1,5)))
+    println(numRa20 suma new Racional(1,5))
   }
 }
 

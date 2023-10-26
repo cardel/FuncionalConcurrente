@@ -26,9 +26,11 @@ class Arbol(dato:Int, hizq:Arbol, hder:Arbol) {
       
       else {
         this
+        val a = List(1,2,3,4,5,6,7,8,9,10,12,13,14,15)
       }
     }
   }
+  
 
   override def toString:String = {
     var s:String = ""

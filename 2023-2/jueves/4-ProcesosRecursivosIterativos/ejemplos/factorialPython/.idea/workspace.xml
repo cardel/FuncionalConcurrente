@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e92502-89d7-4786-99bc-18adbf7b4452" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/app/src/main/scala/factorial/Factorial.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-factorial/app/src/test/scala/factorial/FactorialTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Funciones y Procesos.xopp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Funciones y Procesos_annotated.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../martes/8-Colecciones/Colecciones.xopp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../martes/8-Colecciones/Colecciones.xopp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../martes/8-Colecciones/Colecciones_annotated.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../martes/8-Colecciones/Colecciones_annotated.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,27 +17,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2VOaVrYcmzdicOgX1sQ3MVN677R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="factorialPython" />
@@ -82,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694709606913</updated>
       <workItem from="1694709608323" duration="334000" />
+      <workItem from="1698782691306" duration="412000" />
     </task>
     <servers />
   </component>

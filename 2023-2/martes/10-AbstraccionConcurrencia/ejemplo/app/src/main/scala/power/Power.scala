@@ -3,7 +3,8 @@
  * @author Carlos Delgado
  * @date 14/11/2023
  */
-
+package power
+import common._
 //Importar librerias para el parallelismo
 object Power {
   def power (x: Double, p: Double): Double = {
@@ -53,7 +54,7 @@ object Power {
 
 
   def main(args: Array[String]) {
-    val lst = (1 to 1000000).toArray
+    val lst = (1 to 100000000).toArray
     // n*(n+1)(2n+1)/6 = 10*11*21/6 = 385
     val p = 2.0
     val t = System.currentTimeMillis()
@@ -63,28 +64,12 @@ object Power {
     println("La norma-2 del vector paralela es: " + normaPPar(lst,p))
     println("Tiempo ejecución paralela: " + (System.currentTimeMillis() - t2)) 
     val t3 = System.currentTimeMillis()
-    //println("La norma-2 del vector paralela optimizada es: " + normaPParOpt(lst,p))
+    println("La norma-2 del vector paralela optimizada es: " + normaPParOpt(lst,p))
     println("Tiempo ejecución paralela optimizada: " + (System.currentTimeMillis() - t3)) 
       
 
   }
 
 
-  def parallel[A,B](taskA: => A, taskB: => B): (A,B) = {
-    //Generar dos hilos para A y B
-    val tA = new Thread {
-      override def run() = taskA
-    }
-
-    val tB = new Thread {
-      override def run() = taskB
-    }
-
-    tA.start()
-    tB.start()
-    //Retorna los valores de taskA y taskB
-    (taskA, taskB)
-
-  }
 
 }
